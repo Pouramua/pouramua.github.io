@@ -1,15 +1,44 @@
-******Navigation Bar******
+/******** BASE STYLES *********/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #CFCFCF;
+  font: 1em/1.5 "Times New Roman", Helvetica, Arial, san-serif;
+  font-weight: lighter;
+  background-image: url("http://www.ngatiporou.com/sites/default/files/styles/feature_main/public/feature/main/Dawn%20ceremony3.jpg?itok=q3CkW_Wp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.link{
+  color: #000000;
+}
+
+.selected{
+  color: #330066;
+}
+
+a:hover{
+  color: #000099;
+}
+
+/******** NAV BAR *********/
 li {
   list-style:  none;
   display: inline-block;
-  color: white;
-  font-size: 1em;
+  color: black;
+  font-size: 0.8em;
 }
 
 li a{
-  color: black;
-  padding: 0 30px;
-  font-size: 1.5em;
+  color: white;
+  padding: 0 20px;
+  font-size: 1.2em;
 }
 
 ul{
@@ -23,8 +52,106 @@ nav {
   display: block;
   background-color: white;
   /*opacity: 0.6;*/
-  box-shadow: inset 10px 5px 6px -3px blue;
+  /* box-shadow: inset 10px 5px 6px -3px blue; */
   /*border: solid 1px red;*/
 }
 
-******IMAGE******
+/******** HEADER *********/
+
+header{
+  background-color: #000000
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 3.2em;
+  font-family: 'Arial', cursive;  width: 100%;
+  color: white;
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: 400;
+  padding-bottom: 20px;
+  color: white;
+}
+
+h3 {
+  color: white
+}
+
+/*.container {
+  width:100%;
+  margin: 0 auto;
+}*/
+
+/******** BLOG ENTRIES *********/
+
+.content {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-width: 300px;
+  max-width: 800px;
+  background-color: white;
+  color: #5C5C5C;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1100px){
+  .content{
+    margin-left: 45px;
+    margin-right: 45px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .content{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+p{
+  text-align:justify;
+  /*padding-top: 20px;
+  padding-bottom: 20px;*/
+  margin-bottom: 15px;
+  size: 1em;
+}
+
+/******** IMAGES *********/
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+#semantic-image {
+  display: inline;
+  float: right;
+  margin: 10px;
+  padding: 10px;
+  display: none;
+}
+
+.main-image{
+  max-width:100%;
+  margin:0;
+}
+
+.image-box{
+  max-width: 100%;
+  background-image: url("http://www.ngatiporou.com/sites/default/files/styles/feature_main/public/feature/main/Dawn%20ceremony3.jpg?itok=q3CkW_Wp");
+  background-repeat: no-repeat;
+  border: solid 1px red;
+}
