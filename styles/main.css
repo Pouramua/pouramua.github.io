@@ -1,6 +1,27 @@
 * {
   box-sizing: border-box; }
   /******** BASE *********/
+body {
+      background: white
+      padding: 30;
+      margin: 0;
+      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 17px;
+      line-height: 1.5;
+      color: #000000;
+      text-align: center;
+      }
+
+h1, h2, h3, h4, h5, h6, p {
+        colour: #000000;
+      }
+
+p {
+        background: white;
+        colour: black;
+        padding: 10px 10px 30px 30px;
+        text-align: center;
+  }
 
   /******** NAV BAR *********/
 li {
@@ -60,30 +81,6 @@ img {
   border: solid 1px red;
 }
 
-
-
-
-body {
-  background: white
-  padding: 30;
-  margin: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 17px;
-  line-height: 1.5;
-  color: #000000;
-  text-align: center;
-  }
-
-  h1, h2, h3, h4, h5, h6, p {
-    colour: #000000;
-  }
-
-  p {
-    background: white;
-    colour: black;
-    padding: 10px 10px 30px 30px;
-    text-align: center;
-  }
 
 a {
   color: #1e6bb8;
