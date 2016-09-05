@@ -1,12 +1,70 @@
-/*HEADER*/
-
-/*NAV BAR*/
-
-/*BODY*/
-background{
-  colour: black;
+html {
+  background: #000000;
+  background-image:
+  overflow-y: scroll;
 }
-/*FONTS*/
+
+body {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  line-height: 1.7em;
+  font-family: PT Sans;
+  font-size: 14px;
+  font-weight: 300;
+  background-color: #000000
+}
+
+#body-bg {
+  background-attachment: fixed;
+  background-clip: border-box;
+  background-color: #000000;
+  background-image: url("../image/Hikurangi.jpg");
+  background-origin: padding-box;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  position: relative;
+}
+
+.is-sticky #header {
+  background-color: #000000;
+  z-index: 20;
+}
+.is-sticky #hornav {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+  text-align: center;
+  z-index: 20;
+}
+.is-sticky #hornav ul#hornavmenu {
+  background-color: #171717;
+}
+.is-sticky #header {
+  z-index: 21;
+}
+.is-sticky ul.social-icons {
+  margin-top: 29px;
+}
+
+#header {
+  position: relative;
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  height: 120px;
+  top: 0;
+  transition: all 0.2s ease 0s;
+  width: 100%;
+}
+#header.container {
+  background-color: #white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: 85px;
+  position: relative;
+}
 
 /*CONTACT ME BAR*/
 ul.social-icons {
@@ -20,9 +78,3 @@ ul.social-icons {
     width: 40px;
     right: 36px;
     bottom: 40px;
-  }
-/*IMAGES*/
-
-/*LINKS*/
-
-/*FOOTER*/
