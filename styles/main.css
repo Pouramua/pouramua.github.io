@@ -37,7 +37,7 @@ li a:hover:not(.active) {
 /******** HEADER*********/
 h1{
 color: grey;
-font-size: 40px;
+font-size: 70px;
 font-style: italic;
 font-weight: bold;
 text-align: center;
@@ -67,7 +67,6 @@ color: black
 p {
 background: white;
 colour: black;
-padding: 10px, 10px, 10px, 100px;
-text-align: right;
-text-align: justify;
+padding: 50px
+text-align: center;
 }
