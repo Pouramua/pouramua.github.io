@@ -8,7 +8,6 @@
     background-color: black;
     position: fixed;
     top: 0;
-    width: 50%;
     }
 
 .nav-bar li {
@@ -83,34 +82,3 @@ p {
     }
 
 /******** BLOG PAGES *********/
-body {
-    margin: 0;
-    }
-
-ul {
-    list-style-type: none;
-    margin: 70;
-    padding: 70;
-    width: 25%;
-    background-color: white;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-    }
-
-li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-    }
-
-li a.active {
-    background-color: white;
-    color: black;
-    }
-
-li a:hover:not(.active) {
-    background-color: white;
-    color: black;
-    }
