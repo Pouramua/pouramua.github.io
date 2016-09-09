@@ -35,6 +35,9 @@ li a:hover:not(.active) {
      background-color: black;
      }
 /******** HEADER*********/
+
+
+/******** BODY *********/
 h1{
 color: grey;
 font-size: 70px;
@@ -45,7 +48,6 @@ text-decoration: underline;
 text-transform: capitalize;
 }
 
-/******** BODY *********/
 body{
 background-color: white;
 padding-left: 0;
