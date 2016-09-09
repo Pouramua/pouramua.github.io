@@ -1,5 +1,19 @@
+<<<<<<< HEAD
     /** HOME NAV BAR **/
     body {margin:0;}
+=======
+    /** HOME PAGE NAV BAR **/
+.nav-bar ul {
+    list-style-type: none;
+    margin-top: 0px;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    }
+>>>>>>> master
 
     ul {
         list-style-type: none;
@@ -31,8 +45,42 @@
     .active {
         background-color: #4CAF50;
     }
+<<<<<<< HEAD
     
 /******** BASE *********/
+=======
+    body {
+    margin: 0;
+    }
+
+ul {
+    list-style-type: none;
+    margin: 70;
+    padding: 70;
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    }
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 8px;
+    text-decoration: none;
+    }
+
+li a.active {
+    background-color: white;
+    color: black;
+    }
+
+li a:hover:not(.active) {
+    background-color: white;
+    color: black;
+    }
+/******** BODY *********/
+>>>>>>> master
 body{
     background-color: white;
     padding-left: 70px;
@@ -57,7 +105,6 @@ a:hover {
 h1, h2, h3, h4, h5, h6, p{
     background: white;
     padding: 30px;
-    text-decoration-color: currentColor;
     text-align: center;
     }
 
@@ -65,5 +112,9 @@ p {
     background: white;
     colour: black;
     padding: 10px, 10px, 10px, 100px;
+<<<<<<< HEAD
     text-align: right;
+=======
+    text-align: justify;
+>>>>>>> master
     }
