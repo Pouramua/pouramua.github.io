@@ -1,7 +1,5 @@
-<<<<<<< HEAD
     /** HOME NAV BAR **/
     body {margin:0;}
-=======
     /** HOME PAGE NAV BAR **/
 .nav-bar ul {
     list-style-type: none;
@@ -13,7 +11,6 @@
     position: fixed;
     top: 0;
     }
->>>>>>> master
 
     ul {
         list-style-type: none;
@@ -45,10 +42,8 @@
     .active {
         background-color: #4CAF50;
     }
-<<<<<<< HEAD
-    
+
 /******** BASE *********/
-=======
     body {
     margin: 0;
     }
@@ -80,7 +75,6 @@ li a:hover:not(.active) {
     color: black;
     }
 /******** BODY *********/
->>>>>>> master
 body{
     background-color: white;
     padding-left: 70px;
@@ -112,9 +106,6 @@ p {
     background: white;
     colour: black;
     padding: 10px, 10px, 10px, 100px;
-<<<<<<< HEAD
     text-align: right;
-=======
     text-align: justify;
->>>>>>> master
     }
