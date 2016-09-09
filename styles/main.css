@@ -51,6 +51,9 @@ body{
     color: #000000;
     text-align: center;
     }
+.background-image{
+  padding: 200px;
+}
 
 page-header {
     color: white;
