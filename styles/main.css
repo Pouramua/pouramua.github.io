@@ -8,7 +8,7 @@
     background-color: black;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 50%;
     }
 
 .nav-bar li {
@@ -54,7 +54,7 @@ body{
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 17px;
     line-height: 1.5;
-    color: #000000;
+    color: #03A9F4;
     text-align: right;
     }
 
