@@ -1,4 +1,4 @@
-    /** NAV BAR **/
+    /** HOME PAGE NAV BAR **/
 .nav-bar ul {
     list-style-type: none;
     margin-top: 0px;
@@ -45,7 +45,7 @@
     text-decoration: underline;
     text-emphasis-color: white;
     }
-/******** BASE *********/
+/******** BODY *********/
 body{
     background-color: white;
     padding-left: 70px;
@@ -70,7 +70,6 @@ a:hover {
 h1, h2, h3, h4, h5, h6, p{
     background: white;
     padding: 30px;
-    text-decoration-color: currentColor;
     text-align: center;
     }
 
@@ -80,5 +79,3 @@ p {
     padding: 10px, 10px, 10px, 100px;
     text-align: right;
     }
-
-/******** BLOG PAGES *********/
