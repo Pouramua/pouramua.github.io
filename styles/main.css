@@ -8,11 +8,11 @@
      background-color: black;
      position: relative;
      top: 0;
-     width: 100px;
+     width: 200px;
      }
 
 li {
-     float: left;
+     float: center;
      }
 
 a:hover {
@@ -23,7 +23,7 @@ li a {
      display: block;
      color: white;
      text-align: center;
-     padding: 14px 14px;
+     padding: 17px 17px;
      text-decoration: none;
      }
 
