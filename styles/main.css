@@ -4,7 +4,7 @@
      margin-top: 0;
      padding: 0;
      text-align: center;
-     overflow: scroll;
+     overflow: visible;
      background-color: black;
      position: relative;
      top: 0;
@@ -12,7 +12,7 @@
      }
 
 li {
-     float: center;
+     float: top;
      }
 
 a:hover {
