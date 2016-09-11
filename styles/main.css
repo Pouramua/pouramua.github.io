@@ -3,37 +3,6 @@
 <head>
 <style>
 
-/******** NAV BAR *********/
-.nav-bar ul {
-     list-style-type: none;
-     margin: 0;
-     padding: 0;
-     text-align: center;
-     overflow: hidden;
-     background-color: black;
-     position: absolute;
-     top: 0;
-     width: 100%;
-     }
-
-li {
-     float: center;
-     }
-
-a:hover {
-     color: #50B9FA;
-     }
-
-li a {
-     display: inline-block;
-     color: white;
-     text-align: center;
-     padding: 14px 16px;
-     text-decoration: none;
-     transition: 0.3s;
-     font-size: 17px;
-     }
-
 /******** HEADER*********/
 .nav-bar ul {
      list-style-type: none;
@@ -126,6 +95,7 @@ font-style: italic;
 }
 
 /******** FOOTER *********/
+
 
 </style>
 </head>
