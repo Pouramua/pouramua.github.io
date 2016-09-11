@@ -5,7 +5,7 @@
 
 /******** HEADER*********/
 
-ul {
+ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -16,6 +16,8 @@ ul {
     width: 100%;
 }
 
+ul.topnav li {float: left;}
+
 li {
     float: left;
     border-right:1px solid #bbb;
@@ -25,7 +27,7 @@ li:last-child {
     border-right: none;
 }
 
-li a {
+ul.topnav li a {
     display: block;
     color: white;
     text-align: center;
@@ -41,6 +43,16 @@ li a:hover:not(.active) {
     background-color: #4CAF50;
 }
 
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+    
 /******** BODY *********/
 h1{
 color: grey;
