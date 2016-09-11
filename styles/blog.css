@@ -4,6 +4,18 @@
 <style>
 
 /******** HEADER*********/
+.nav-bar ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     text-align: center;
+     overflow: hidden;
+     background-color: black;
+     position: absolute;
+     top: 0;
+     width: 100%;
+     }
+
 .dropbtn {
     background-color: black;
     color: white;
