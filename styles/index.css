@@ -10,7 +10,7 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
     position: fixed;
     top: 0;
     width: 100%;
@@ -43,56 +43,54 @@ li a:hover:not(.active) {
     background-color: #4CAF50;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111;}
-
-ul.topnav li a.active {background-color: #4CAF50;}
-
-ul.topnav li.right {float: right;}
-
-@media screen and (max-width: 600px){
-    ul.topnav li.right,
-    ul.topnav li {float: none;}
-
 /******** BODY *********/
-
 body{
-background-color: FFDEAD;
-padding-left: 25%;
-padding-right: 25%;
-font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 17px;
-line-height: 1.5;
-text-align: center;
+  background-color: #DEB887;
+  padding-left: 25%;
+  padding-right: 25%;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+  text-align: center;
 }
 
 h1{
-color: grey;
-font-size: 70px;
-font-style: italic;
-font-weight: bold;
-text-align: center;
-text-decoration: underline;
-text-transform: capitalize;
+  background: white;
+  color: black;
+  font-size: 70px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
 }
 
-h2 {
-background: white;
-padding: 30px;
-text-align: center;
-color: #03A9F4;
-font-weight: bold;
+h2,{
+  background: white;
+  color: #00BFFF;
+  font-size: 50px;
+  padding: 25px;
+  text-align: center;
+  font-weight: bolder;
 }
 
-p.round2 {
-colour: black;
-background: white;
-padding: 50px
-text-align: center;
-font-style: italic;
-border: 2px solid grey;
-border-radius: 8px;
+h3{
+  background: white;
+  colour: ;
+  font-size: 17px;
+  padding: 30px;
+  text-align: center;
+  font-style: bold;
 }
 
+p {
+  background: white;
+  colour: black;
+  font-size: 17px;
+  padding: 30px;
+  text-align: center;
+  font-style: italic;
+}
 /******** FOOTER *********/
 
 
