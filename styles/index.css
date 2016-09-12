@@ -46,8 +46,8 @@ li a:hover:not(.active) {
 /******** BODY *********/
 body{
   background-color: #DEB887;
-  padding-left: 25%;
-  padding-right: 25%;
+  padding-left: 10%;
+  padding-right: 10%;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 17px;
   line-height: 1.5;
@@ -65,20 +65,11 @@ h1{
   text-transform: capitalize;
 }
 
-h2,{
-  background: white;
-  color: #00BFFF;
-  font-size: 50px;
-  padding: 25px;
-  text-align: center;
-  font-weight: bolder;
-}
-
 h3{
   background: white;
   colour: ;
   font-size: 17px;
-  padding: 30px;
+  padding: 10px;
   text-align: center;
   font-style: bold;
 }
@@ -90,6 +81,14 @@ p {
   padding: 30px;
   text-align: center;
   font-style: italic;
+}
+
+strong{
+  background: white;
+  color: black;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bolder;
 }
 /******** FOOTER *********/
 
