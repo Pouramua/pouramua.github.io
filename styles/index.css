@@ -2,95 +2,118 @@
 <html>
 <head>
 <style>
-/******** HEADER*********/
 
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-    position: fixed;
-    top: 0;
+/*NAV BAR*/
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+
+.fixed-nav-bar li, .fixed-nav-bar a {
+  height: 50px;
+  line-height: 50px;
+}
+
+/*MENU*/
+.menu {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.menu a, .menu a:visited {
+  color: #ffffff;
+}
+.menu a:hover, .menu a:target {
+  color: #ebebeb;
+}
+.menu-items {
+  display: inline-block;
+}
+.sitename {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+a.sitename, a:visited.sitename {
+  color: #e0e0e0;
+}
+.menu-items li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.menu-items a {
+  text-decoration: none;
+}
+.show, .hide {
+  display: none;
+  padding-left: 15px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center left;
+  color: #dde1e2;
+}
+.show {
+  background-image: url(assets/down-arrow-icon.png);
+}
+.hide {
+  background-image: url(assets/up-arrow-icon.png);
+}
+
+@media only screen and (max-width: 800px) {
+  .menu {
+    position: relative;
     width: 100%;
-}
-
-ul.topnav li {float: left;}
-
-li {
-    float: left;
-    border-right:1px solid #bbb;
-}
-
-li:last-child {
-    border-right: none;
-}
-
-ul.topnav li a {
+  }
+  .sitename {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    margin-left: 0px;
+  }
+  .menu-items {
+    display: none;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #008378;
+  }
+  .menu-items li {
     display: block;
-    color: white;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  }
+  .show, .hide {
+    position: absolute;
+    top: 0;
+    right: 15px;
+  }
+  .show {
+    display: inline-block;
+  }
+  .hide {
+    display: none;
+  }
+  #menu:target .show {
+    display: none;
+  }
+  #menu:target .hide, #menu:target .menu-items {
+    display: inline-block;
+  }
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
+@media only screen and (max-width: 220px) {
+  .sitename, .show, .hide {
+    font-size: 14px;
+  }
 }
+/*PAGE CONTENTS*/
 
-.active {
-    background-color: #4CAF50;
-}
-
-/******** BODY *********/
-body{
-  background-color: #DEB887;
-  padding-left: 10%;
-  padding-right: 10%;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 17px;
-  line-height: 1.5;
-  text-align: center;
-}
-
-h1{
-  background: white;
-  color: black;
-  font-size: 70px;
-  font-style: italic;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: underline;
-  text-transform: capitalize;
-}
-
-h3{
-  background: white;
-  colour: ;
-  font-size: 17px;
-  padding: 10px;
-  text-align: center;
-  font-style: bold;
-}
-
-p {
-  background: white;
-  colour: black;
-  font-size: 17px;
-  padding: 30px;
-  text-align: center;
-  font-style: italic;
-}
-
-strong{
-  background: white;
-  color: black;
-  font-size: 22px;
-  text-align: center;
-  font-weight: bolder;
-}
-/******** FOOTER *********/
-
+/*BLOG BUTTONS*/
 
 </style>
 </head>
