@@ -60,38 +60,29 @@
 /******** BODY *********/
 
 body{
-  background-color: #DEB887;
+  padding-top: 70px; 
+  background-color: #FFE4B5;
+  text-align: center;
+  line-height: 1.5;
   padding-left: 10%;
   padding-right: 10%;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 17px;
-  line-height: 1.5;
-  text-align: center;
 }
 
 h1{
-  background: white;
-  color: black;
+  background: black;
+  color: white;
   font-size: 70px;
+  text-align: center;
   font-style: italic;
   font-weight: bold;
-  text-align: center;
   text-decoration: underline;
   text-transform: capitalize;
 }
 
-h3{
-  background: white;
-  colour: ;
-  font-size: 17px;
-  padding: 10px;
-  text-align: center;
-  font-style: bold;
-}
-
 p {
-  background: white;
-  colour: black;
+  background: #DEB887;
+  color: black;
   font-size: 17px;
   padding: 30px;
   text-align: center;
@@ -107,6 +98,18 @@ strong{
 }
 
 /******** FOOTER *********/
+
+h3{
+  background: black;
+  color: grey;
+  font-size: 13px;
+  padding: 10px;
+  text-align: center;
+  font-style: italic;
+}
+.navbar-text ul{
+
+}
 
 </style>
 </head>
