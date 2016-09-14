@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-
 /*NAV BAR*/
 .fixed-nav-bar {
   position: fixed;
@@ -14,34 +9,25 @@
   height: 50px;
   background-color: black;
 }
-
 .fixed-nav-bar li, .fixed-nav-bar a {
   height: 50px;
   line-height: 50px;
 }
 
-/*MENU*/
+/*MENU BAR*/
 .menu {
-  width: 90%;
-  max-width: 960px;
+  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
 }
 .menu a, .menu a:visited {
   color: #ffffff;
 }
 .menu a:hover, .menu a:target {
-  color: #ebebeb;
+  color: grey;
 }
 .menu-items {
   display: inline-block;
-}
-.sitename {
-  display: inline-block;
-  margin-right: 20px;
-  margin-left: 10px;
-}
-a.sitename, a:visited.sitename {
-  color: #e0e0e0;
 }
 .menu-items li {
   display: inline-block;
@@ -57,7 +43,7 @@ a.sitename, a:visited.sitename {
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: center left;
-  color: #dde1e2;
+  color: white;
 }
 .show {
   background-image: url(assets/down-arrow-icon.png);
@@ -66,37 +52,41 @@ a.sitename, a:visited.sitename {
   background-image: url(assets/up-arrow-icon.png);
 }
 
-@media only screen and (max-width: 800px) {
-  .menu {
-    position: relative;
-    width: 100%;
-  }
-  .sitename {
-    position: absolute;
-    top: 0;
-    left: 15px;
-    margin-left: 0px;
-  }
-  .menu-items {
-    display: none;
-    width: 100%;
-    margin-top: 50px;
-    background-color: #008378;
-  }
-  .menu-items li {
-    display: block;
-    text-align: center;
-  }
-  .show, .hide {
-    position: absolute;
-    top: 0;
-    right: 15px;
-  }
-  .show {
-    display: inline-block;
-  }
-  .hide {
-    display: none;
+/*Name Bnner*/
+.sitename {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+a.sitename, a:visited.sitename {
+  color: #e0e0e0;
+}
+.sitename {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  margin-left: 0px;
+}
+.menu-items {
+  display: none;
+  width: 100%;
+  margin-top: 50px;
+  background-color: black;
+}
+.menu-items li {
+  display: block;
+  text-align: center;
+}
+.show, .hide {
+  position: absolute;
+  top: 0;
+  right: 15px;
+}
+.show {
+  display: inline-block;
+}
+.hide {
+  display: none;
   }
   #menu:target .show {
     display: none;
@@ -104,16 +94,15 @@ a.sitename, a:visited.sitename {
   #menu:target .hide, #menu:target .menu-items {
     display: inline-block;
   }
-}
 
+@media only screen and (max-width: 800px) {
+  .menu {
+    position: relative;
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 220px) {
   .sitename, .show, .hide {
     font-size: 14px;
   }
 }
-/*PAGE CONTENTS*/
-
-/*BLOG BUTTONS*/
-
-</style>
-</head>
