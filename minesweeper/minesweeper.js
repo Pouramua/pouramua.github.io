@@ -1,8 +1,7 @@
 document.addEventListener('DOMContentLoaded', startGame)
 
 // Define your `board` object here!
-var board = {
-cells: [
+var board = { cells: [
 {row: 0, col: 0, isMine: false, hidden: true},
 {row: 0, col: 1, isMine: false, hidden: true},
 {row: 0, col: 2, isMine: false, hidden: true},
@@ -14,6 +13,19 @@ cells: [
 {row: 2, col: 2, isMine: false, hidden: true},
 ]
 };
+
+function createBoard(num) {
+for(var i = 0; i < num; i++) {
+for(var a = 0; a < num; a++) {
+board.cells.push({
+row: i,
+col: a,
+isMine: Math.random()>0.80,
+hidden: true
+})
+}
+}
+}
 
 function startGame () {
   for (var i = 0; i < board.cells.length; i++){
@@ -38,6 +50,13 @@ function checkForWin () {
         return;
       }
     }
+
+//On click sound//
+function play(){
+      var audio = document.getElementById("audio");
+      audio.play();
+                }
+
 lib.displayMessage('You win!')
 
       var audioWin = document.getElementById("win");
