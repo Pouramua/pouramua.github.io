@@ -1,5 +1,7 @@
 /* WEB FONT */
 @import url(http://fonts.googleapis.com/css?family=Signika:600|Varela+Round);
+@import url(http://fonts.googleapis.com/css?family=Pacifico|Open+Sans|Montserrat);
+
 
 /* RESET */
 * {
@@ -14,11 +16,11 @@ body {
   color: #2e2e2e;
 }
 h1, h2 {
-  font-family: "Signika", sans-serif;
+  font-family: 'Pacifico';
   font-weight: 600;
 }
 h1 {
-  font-size: 36px;
+  font-size: 30px;
   line-height: 46px;
   color: #e0e0e0;
 }
