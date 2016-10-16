@@ -29,6 +29,19 @@
   height: 50px;
   background-color: black;
 }
+.navbar-text {
+  float: right;
+  margin-right: 20px;
+  margin-left: 10px;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  margin-left: 0px;
+}
+.navbar-logos {
+  float: left;
+  position: absolute;
+}
 
 /*MENU BAR*/
 .menu {
@@ -68,7 +81,7 @@
   background-image: url(assets/up-arrow-icon.png);
 }
 
-/*Name Bnner*/
+/*Name Banner*/
 .sitename {
   display: inline-block;
   margin-right: 20px;
