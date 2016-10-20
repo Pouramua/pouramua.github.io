@@ -1,5 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico|Open+Sans|Montserrat);
+
 /*NAV BAR*/
 .fixed-nav-bar {
+  font-family: 'Pacifico';
   position: fixed;
   top: 0;
   left: 0;
@@ -12,6 +15,32 @@
 .fixed-nav-bar li, .fixed-nav-bar a {
   height: 50px;
   line-height: 50px;
+}
+
+.navbar-fixed-bottom{
+  color: white;
+  font-family: 'Pacifico';
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+.navbar-text {
+  float: right;
+  margin-right: 20px;
+  margin-left: 10px;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  margin-left: 0px;
+}
+.navbar-logos {
+  float: left;
+  position: absolute;
 }
 
 /*MENU BAR*/
@@ -52,7 +81,7 @@
   background-image: url(assets/up-arrow-icon.png);
 }
 
-/*Name Bnner*/
+/*Name Banner*/
 .sitename {
   display: inline-block;
   margin-right: 20px;
